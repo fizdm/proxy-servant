@@ -1,2 +1,2 @@
-# py_proxy
-py_proxy is your proxy-servant that will give you a working proxy every time you request it
+# proxy-servant
+proxy-servant is your best friend that will give you a working proxy every time you request it
