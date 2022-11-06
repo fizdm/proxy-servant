@@ -10,4 +10,4 @@ python setup.py sdist bdist_wheel
 twine upload dist/*
 ```
 
-Will be available at https://pypi.org/project/proxy-servant/
+Will be available at https://pypi.org/project/proxy_servant/
