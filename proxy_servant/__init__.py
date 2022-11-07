@@ -1,4 +1,5 @@
 from .data_sources import *
+from .providers import *
 from .proxy import *
 from .proxy_checker import *
 
@@ -9,6 +10,8 @@ __all__ = [
     'FileDataSource',
     'ListDataSource',
     'UnionDataSource',
+    'IProxyProvider',
+    'BasicProxyProvider',
     'IProxyChecker',
     'ProxyCheckResponse',
     'BasicProxyChecker'
