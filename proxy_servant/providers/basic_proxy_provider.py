@@ -24,6 +24,9 @@ class BasicProxyProvider(IProxyProvider):
     def report_dead_proxy(self, dead_proxy: IProxy):
         self._data = [proxy for proxy in self._data if proxy != dead_proxy]
 
+    def get_all(self) -> List[IProxy]:
+        return self._data[:]
+        
     def __iter__(self):
         return self
 
