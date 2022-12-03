@@ -1,7 +1,7 @@
 from .i_proxy_provider import IProxyProvider
-from .proxy_provider import ProxyProvider
+from .basic_proxy_provider import BasicProxyProvider
 
 __all__ = [
     'IProxyProvider',
-    'ProxyProvider'
+    'BasicProxyProvider'
 ]

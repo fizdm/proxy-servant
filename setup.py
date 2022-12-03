@@ -17,13 +17,13 @@ setup_args = dict(
     author='Dmitriy Popov',
     author_email='dpopov@fizdm.ru',
     keywords=['Proxy', 'Proxy Checker', 'Proxy Servant', 'Servant', 'Python 3'],
-    url='https://github.com/FizzyShow/proxy-servant',
-    download_url='https://pypi.org/project/proxy-servant/'
+    url='https://github.com/FizzyShow/proxy_servant',
+    download_url='https://pypi.org/project/proxy_servant/'
 )
 
 install_requires = [
     'aiohttp',
-    'aiosocksy'
+    'aiosocksy',
 ]
 
 if __name__ == '__main__':
