@@ -8,7 +8,7 @@ with open('HISTORY.md') as history_file:
 
 setup_args = dict(
     name='proxy-servant',
-    version='0.0.1',
+    version='1.0.0',
     description='proxy-servant is your best friend that will give you a working proxy every time you request it',
     long_description_content_type="text/markdown",
     long_description=README + '\n\n' + HISTORY,
